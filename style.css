@@ -1,9 +1,6 @@
-/* author: Jouan Marcel
-https://codepen.io/jouanmarcel/pen/NLgVjm */
-
 body {
   font-family: "Raleway", sans-serif;
-  background-image: radial-gradient(circle at center, #899Dc4, #495D84);
+  background-image: radial-gradient(circle at center, #899dc4, #495d84);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -31,18 +28,25 @@ body {
   transition: all 1.3s ease-in;
   transform: perspective(10000px) rotateX(0deg);
 }
+
 .all:hover .text {
   opacity: 1;
 }
+
 .all:hover > div {
   opacity: 1;
   transition-delay: 0s;
 }
+
 .all:hover .explainer {
   opacity: 0;
 }
 
-.left, .center, .right, .lefter, .righter {
+.left,
+.center,
+.right,
+.lefter,
+.righter {
   width: 200px;
   height: 150px;
   transform-style: preserve-3d;
@@ -60,7 +64,12 @@ body {
   cursor: pointer;
   background-blend-mode: color-burn;
 }
-.left:hover, .center:hover, .right:hover, .lefter:hover, .righter:hover {
+
+.left:hover,
+.center:hover,
+.right:hover,
+.lefter:hover,
+.righter:hover {
   box-shadow: 0 0 30px 10px rgba(100, 100, 255, 0.6);
   background-color: #ccf;
 }
@@ -131,6 +140,7 @@ body {
   text-decoration: none;
   text-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
 }
+
 .ref::first-letter {
   font-size: 12px;
 }
